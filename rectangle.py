@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 def area(a, b):
         '''
         Функция area(a, b) принимает два аргумента, возвращает их произведение
@@ -25,3 +26,10 @@ def perimeter(a, b):
             perimeter(5, 6) -> 22
         '''
         return 2*(a + b)
+=======
+def area(a, b): 
+    return a * b 
+
+def perimeter(a, b): 
+    return 2*(a + b)
+>>>>>>> parent of a95ff78 (добавил документацию в файлах)
