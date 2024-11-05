@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 def area(a):
     '''
     Функция area(a) принимает один аргумент, возвращает принятый аргумент в квадарте
@@ -10,15 +9,11 @@ def area(a):
             area(a) -> int
     area(4) -> 16
     '''
-=======
-
-def area(a):
->>>>>>> parent of a95ff78 (добавил документацию в файлах)
-    return a * a
-
+    if a < 0:
+        raise ValueError("Negative number")
+    return a*a
 
 def perimeter(a):
-<<<<<<< HEAD
     '''
     Функция perimeter(a) принимает один аргумент возвращает принятый аргумент, умноженный в 4 раза
 
@@ -30,7 +25,6 @@ def perimeter(a):
             
     perimeter(2) -> 8
     '''
-    return 4 * a 
-=======
+    if a < 0:
+        raise ValueError("Negative number")
     return 4 * a
->>>>>>> parent of a95ff78 (добавил документацию в файлах)

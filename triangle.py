@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 def area(a, h):
     '''
     Функция area принимает два аргумента, возвращает полупроизведение аргументов
@@ -8,11 +7,13 @@ def area(a, h):
             h(int)
             
         Возвращаемое значение:
-            area(a, h) -> int
+            area(a, h) -> float
             
     area(2,4) -> 4
     '''
-    return a * h / 2
+    if a < 0 or h < 0:
+        raise ValueError("Negative number")
+    return a * (h / 2)
 
 def perimeter(a, b, c):
     '''
@@ -28,11 +29,6 @@ def perimeter(a, b, c):
 
     perimeter(3, 4, 5) -> 12
     '''
+    if a < 0 or b < 0 or c < 0:
+        raise ValueError("Negative number")
     return a + b + c
-=======
-def area(a, h): 
-    return a * h / 2 
-
-def perimeter(a, b, c): 
-    return a + b + c 
->>>>>>> parent of a95ff78 (добавил документацию в файлах)

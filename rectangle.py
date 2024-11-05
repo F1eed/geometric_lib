@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 def area(a, b):
         '''
         Функция area(a, b) принимает два аргумента, возвращает их произведение
@@ -11,6 +10,8 @@ def area(a, b):
                 
             area(5, 6) -> 30
         '''
+        if a < 0 or b < 0:
+                raise ValueError("Negative number")
         return a * b
 
 def perimeter(a, b):
@@ -25,11 +26,6 @@ def perimeter(a, b):
                 
             perimeter(5, 6) -> 22
         '''
+        if a < 0 or b < 0:
+                raise ValueError("Negative number")
         return 2*(a + b)
-=======
-def area(a, b): 
-    return a * b 
-
-def perimeter(a, b): 
-    return 2*(a + b)
->>>>>>> parent of a95ff78 (добавил документацию в файлах)

@@ -1,7 +1,5 @@
 import math
 
-
-<<<<<<< HEAD
 def area(r): 
         '''
         Функция area(r) принимает один аргумент(радиус), возвращает площадь окружности с данным радиусом
@@ -13,6 +11,8 @@ def area(r):
                         
         area(2) -> ~(4*3,1415)
         '''
+        if r < 0:
+                raise ValueError("Negative number")
         return math.pi * r * r
 
 
@@ -27,13 +27,7 @@ def perimeter(r):
                         
         perimeter(6) -> ~(12*3,1415)
         '''
-        return 2 * math.pi * r 
-=======
-def area(r):
-    return math.pi * r * r
-
-
-def perimeter(r):
-    return 2 * math.pi * r
->>>>>>> parent of a95ff78 (добавил документацию в файлах)
+        if r < 0:
+                raise ValueError("Negative number")
+        return 2 * math.pi * r
 
