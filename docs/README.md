@@ -20,6 +20,8 @@
   - Rectangle: P = 2a + 2b
   - Square: P = 4a
 # History
+  ## Commit [8ab816c293746d248e34ed554dad395d50e61e91](https://github.com/F1eed/geometric_lib/commit/8ab816c293746d248e34ed554dad395d50e61e91)
+  - ### добавил тесты к функциям, учитывая аргументы не того типа, нулевые аргументы и отрицательные значения в аргументах
   ## Commit [7f740ffacd37f22fbbcb10754b92db276863b7ab](https://github.com/F1eed/geometric_lib/commit/7f740ffacd37f22fbbcb10754b92db276863b7ab)
   - ### обновил комментарии в файлах
   ## Commit [bb0e16cf86b268f2a9d9cfc03d660610bac43df9](https://github.com/F1eed/geometric_lib/commit/bb0e16cf86b268f2a9d9cfc03d660610bac43df9)
